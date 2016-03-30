@@ -22,6 +22,7 @@ angular.module('AngularScaffold.Controllers')
       }
 
       $scope.register = function(){
+        alert('hola');
         var user = {username: $scope.user.username, password:  $scope.user.password, scope: ['admin']};
         authService.Register(user).then(function(response){
           alert('Registered in correctly!');
