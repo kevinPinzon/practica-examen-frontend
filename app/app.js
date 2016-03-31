@@ -11,4 +11,10 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
             templateUrl: '/views/home.html',
             controller: 'HomeController'
         });
+				$stateProvider
+				.state('crearOferta', {
+					url: '/crearOferta',
+					templateUrl: '/views/crearOferta.html',
+					controller: 'ScanController'
+			});
 }])
