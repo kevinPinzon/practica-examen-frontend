@@ -4,30 +4,27 @@
 					<img src="images/logo.png" alt="logo" height="160px">
 				</div>
 				<form class="form-inline">
-					<label class="col-lg-4 col-lg-offset-1 registroLabel">Primer nombre  </label>
-					<input id="nombreC" type="text" class=" form-control inputRegistro"  ng-model="user.name.first">
+					<label class="col-lg-4 col-lg-offset-1 registroLabel">Titulo  </label>
+					<input id="nombreC" type="text" class=" form-control inputRegistro"  ng-model="ofertasTrabajo.titulo">
 				</form>
 				<form class="form-inline">
-					<label class="col-lg-4 col-lg-offset-1 registroLabel">Apellido  </label>
-					<input id="nombreC" type="text" class=" form-control inputRegistro"  ng-model="user.name.last">
+					<label class="col-lg-4 col-lg-offset-1 registroLabel">Descripcion  </label>
+					<input id="nombreC" type="text" class=" form-control inputRegistro"  ng-model="ofertasTrabajo.descripcion">
 				</form>
 				<form class="form-inline">
-					<label class="col-lg-4 col-lg-offset-1 registroLabel">Nombre de usuario </label>
-					<input id="nickN" type="text" class=" form-control inputRegistro"  ng-model="user.username">
+					<label class="col-lg-4 col-lg-offset-1 registroLabel">Cargo a desempenar </label>
+					<input id="nickN" type="text" class=" form-control inputRegistro"  ng-model="ofertasTrabajo.cargo">
 				</form>
 				<form class="form-inline">
-					<label class="col-lg-4 col-lg-offset-1 registroLabel">Email  </label>
-					<input id="correo" type="text" class=" form-control inputRegistro"  ng-model="user.mail">
+					<label class="col-lg-4 col-lg-offset-1 registroLabel">Informacion de contacto </label>
+					<input id="correo" type="text" class=" form-control inputRegistro"  ng-model="ofertasTrabajo.informacion">
 				</form>
 				<form class="form-inline">
-					<label class="col-lg-4 col-lg-offset-1 registroLabel">Contraseña  </label>
-					<input id="contrasena" type="password" class=" form-control inputRegistro"  ng-model="user.password">
+					<label class="col-lg-4 col-lg-offset-1 registroLabel">Salario anual en dolares </label>
+					<input id="contrasena" type="password" class=" form-control inputRegistro"  ng-model="ofertasTrabajo.salario">
 				</form>
-				<form class="form-inline">
-					<label class="col-lg-4 col-lg-offset-1 registroLabel">Confirmar contraseña  </label>
-					<input id="contrasena" type="password" class=" form-control inputRegistro"  ng-model="user.password2">
-				</form>
-				<a href="#" class="buttonSpecial col-md-8 col-md-offset-2" ng-click="postUser()">Crear cuenta</a>
+
+				<a href="#" class="buttonSpecial col-md-8 col-md-offset-2" ng-click="postUser()">Crear oferta</a>
 			</article>
 		</div>
 	</div>

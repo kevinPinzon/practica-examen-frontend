@@ -1,0 +1,150 @@
+#buscarAmigos{
+	padding-top: 10px;
+	margin-top: 40px;
+	background: url(../../images/background2.png);
+	opacity: 0.8;
+	height: 550px;
+	margin-bottom: 100px;
+	border: 2px solid rgba(172,32,45,0.8);
+}
+
+#buttonBuscarAmigos:hover{
+	background: transparent;
+	border: 1.2px solid white !important;
+}
+body{
+	background: url(../img/background.png);
+	background-size: 100% auto;
+}
+
+
+#buttonBuscarAmigos{
+	background: transparent;
+	color: white !important;
+	border: 2.2px solid white !important;
+}
+
+.divPerfilEditar{
+	background: url(../../images/background2.png);
+	background-size: 100% auto;
+	opacity: 0.9;
+	height: 550px;
+	padding-top: 10px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	border: 2px solid rgba(172,32,45,0.8);
+}
+#editarPerfil{
+	margin-top: 20px;
+	background:transparent;
+}
+
+#divImagEditar{
+	margin-bottom: 40px;
+	margin-left: 15px;
+}
+.buttonEditar{
+	font-size: 1.2em !important;
+	font-weight: 600 !important;
+	color: white !important;
+	padding-top: 12px !important;
+}
+
+.informacionEditar{
+	margin-bottom: 50px;
+}
+#imgEditar{
+ padding: 0px;
+ margin: 0px;
+}
+#H4editar{
+	color: white;
+	font-size: 0.6em;
+}
+.editarLabel{
+	font-size: 1.1em;
+	color: white;
+}
+
+.inputEditar{
+	height: 25px !important;
+	width: 190px !important;
+}
+
+#nickNameMenu{
+	font-size: 1.4em !important;
+}
+
+#imagMenu{
+	margin-top: 10px;
+	margin-right: 40px;
+}
+
+#Navbar{
+	margin-top: -50px;
+	background-color: rgba(172,32,45,.0);
+	height: 60px;
+	border-top: 0px solid #000;
+	border-bottom: 0px solid #000;
+}
+
+#fondo_principal{
+	margin-top: 10%;
+	background-color: rgba(255,255,255,.6);
+	padding: 30px;
+}
+
+#imagen_principal{
+	margin-top: 10%;
+}
+
+.vernoticia{
+color: white !important;
+font-size: 1em !important;
+}
+#verMas{
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 1em;
+}
+
+#divregistro{
+	font-size: 0.9em;
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	color: white;
+	border: solid 3px rgba(160, 160, 160, 0.65);
+	background: transparent;
+	background-repeat:no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position: center 0;
+	padding-bottom: 50px !important;
+	margin-bottom: 70px;
+	margin-top: 120px;
+}
+.buttonSpecial{
+	margin-top: 20px;
+	text-align: center;
+	border: solid 2px rgba(160, 160, 160, 0.65);
+	font-size: 1.2em;
+	font-weight: 900;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: rgba(172,32,45,.9);
+}
+.buttonSpecial:hover{
+	font-size: 1.4em;
+	color: rgba(172,32,45,1);
+	border: solid 2.4px rgba(160, 160, 160, 1);
+}
+.logoRegistro{
+	margin-bottom: 50px;
+}
+.inputRegistro{
+	font-size: 1.1em !important;
+	font-weight: 600 !important;
+}
