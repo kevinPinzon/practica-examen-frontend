@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Angular JS Scaffold app.</title>
+    <title>Examen 2parcial</title>
     <!-- inject:css -->
     <link rel="stylesheet" href="styles/style.css">
     <!-- endinject -->
@@ -13,7 +13,7 @@
   </head>
   <body ng-app="AngularScaffold">
     <div ng-controller="NavbarController">
-      <nav class="navbar navbar-default">
+      <nav id="Navbar" class="main" class="navbar navbar-default">
         <div class="container-fluid" >
           <div class="navbar-header pull-right">
             <form class="navbar-form navbar-right" role="search">
@@ -41,6 +41,11 @@
     <div class="container">
       <div ui-view></div>
   </div>
+  <div class="panel-footer">
+    <a href="#" class="buttonSpecial col-md-8 col-md-offset-2" ng-click="postUser()">https://github.com/kevinPinzon/practica-examen-frontend</a>
+    <a href="#" class="buttonSpecial col-md-8 col-md-offset-2" ng-click="postUser()">https://github.com/kevinPinzon/practica-examen-backend</a>
+  </div>
+
   </body>
 
   <!-- bower:js -->
